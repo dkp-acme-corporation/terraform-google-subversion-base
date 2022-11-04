@@ -1,7 +1,5 @@
-gcpProject = "dkp-sandbox"
-gcpRegion  = "northamerica-northeast2"
-gcpZone    = "northamerica-northeast2-a"
-#
+#BOF
 computeEnvironment   = "prd"
 computeInstanceKey   = "svn"
 computeInstanceCount = 1
+#EOF
