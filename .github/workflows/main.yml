@@ -100,11 +100,6 @@ jobs:
               ${{ env.TERRAFORM_CODE_PATH }}/.terraform
           key: ${{ runner.os }}-terraform-${{ github.ref_name }}
       ## ---------------------------------------------------
-      - name: Terraform Apply
-        run: |
-          cd ${{ env.TERRAFORM_CODE_PATH }}
-          terraform init
-          terraform apply --auto-approve
 
 #curl \
 #    -X DELETE \
